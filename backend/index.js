@@ -5,5 +5,6 @@ app.get("/", (req, res) => {
   res.send("Backend is running 🚀");
 });
 
-const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log("Server started"));
+app.listen(process.env.PORT || 3000, () => {
+  console.log("Server started");
+});
