@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"], weight: ["300", "400", "500", "600"] });
 
 export const metadata = {
-  title: "KU Assistant — Karnavati University",
+  title: "AI-Powered Academic Assistant",
   description: "AI-powered assistant for timetables, faculty schedules and exam dates",
 };
 
