@@ -26,8 +26,7 @@ export default function Home() {
       <section className={s.hero}>
         <div className={s.heroBadge}>
           <span className={s.heroDot} />
-          Powered by Claude AI + RAG
-        </div>
+         </div>
         <h1 className={s.heroH1}>
           Your university,<br />
           <em className={s.heroEm}>answered instantly</em>
