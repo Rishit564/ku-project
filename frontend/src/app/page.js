@@ -24,9 +24,6 @@ export default function Home() {
 
       {/* ── HERO ── */}
       <section className={s.hero}>
-        <div className={s.heroBadge}>
-          <span className={s.heroDot} />
-         </div>
         <h1 className={s.heroH1}>
           Your university,<br />
           <em className={s.heroEm}>answered instantly</em>
